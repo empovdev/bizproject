@@ -1,0 +1,43 @@
+.container .logo
+{
+    display: inline;
+    float: left;
+    justify-items: center;
+    position: relative;
+    top: 0px;
+}
+.container .logo img
+{
+    width: 100%;
+}
+.bg-dark.p-2
+{
+    height: 85px;
+}
+.fixed-top.bg-custum_1
+{
+    height: 85px;
+    transition: ease-in-out 0.2s;
+    background-color: rgba(12, 118, 188, 0.705) !important;
+}
+.nav_header
+{
+    float: right;
+}
+.nav-link.text-white
+{
+    text-transform: uppercase;
+    justify-items: center;
+    position: relative;
+    top: 10px;
+}
+.border-rounded
+{
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.border-rounded:hover
+{
+    transform: translateY(-1px);
+    
+}
